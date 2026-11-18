@@ -13,7 +13,7 @@
     "handle": "@rrodrigoandradee_",
     "bio": "Fisioterapia com foco na reabilitação de joelho, no movimento e na recuperação funcional.",
     "phone": "+5598991853468",
-    "email": "rodrigo@gmail.com",
+    "email": "rodrigosousa155@hotmail.com",
     "address": {
       "city": "São Luís",
       "region": "MA",
@@ -95,9 +95,9 @@
     {
       "id": "email",
       "icon": "email",
-      "href": "mailto:rodrigo@gmail.com",
+      "href": "mailto:rodrigosousa155@hotmail.com",
       "label": "E-mail",
-      "description": "rodrigo@gmail.com",
+      "description": "rodrigosousa155@hotmail.com",
       "showInFooter": true
     },
     {
