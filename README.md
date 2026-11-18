@@ -53,7 +53,7 @@ Os workflows usam o controlador versionado `@v1` da central. Uma mudança futura
 
 ## Identidade visual
 
-A paleta usa azul-marinho, dourado e branco. As logos completas em `public/brand/` vieram dos arquivos originais da pasta RA e foram preservadas. O monograma SVG foi preparado a partir do vetor editável já existente em `Fotos/`; os ícones de instalação foram exportados desse vetor nos tamanhos 192 × 192 e 512 × 512, com margem para máscara. Os originais em `Fotos/` e os arquivos de fonte continuam locais e não são publicados.
+A página inicial usa azul-marinho, dourado e branco. O Tabata usa a mesma paleta escura com destaque verde da Débora. As duas paletas continuam independentes e editáveis em `site.config.json`: `theme.home` controla a página inicial e `theme.timer` controla o cronômetro, suas telas e as cores do aplicativo instalado. As logos completas em `public/brand/` vieram dos arquivos originais da pasta RA e foram preservadas. O monograma SVG foi preparado a partir do vetor editável já existente em `Fotos/`; os ícones de instalação foram exportados desse vetor nos tamanhos 192 × 192 e 512 × 512, com margem para máscara. Os originais em `Fotos/` e os arquivos de fonte continuam locais e não são publicados.
 
 O perfil usa o monograma porque não há foto de retrato nos materiais fornecidos. O Tabata está habilitado e seus dados ficam neste navegador, separados dos outros profissionais.
 

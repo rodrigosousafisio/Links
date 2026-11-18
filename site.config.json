@@ -63,16 +63,16 @@
       "border": "213 35% 29%"
     },
     "timer": {
-      "background": "#0D223C",
-      "card": "#132D4B",
-      "surface": "#1A3655",
-      "border": "#2E4968",
-      "text": "#F7F4EF",
-      "muted": "#ADBBCC",
-      "accent": "#E2B531",
-      "onAccent": "#0D223C",
-      "accentHover": "#F1C855",
-      "glow": "#D4A10B1A"
+      "background": "#090e0d",
+      "card": "#101715",
+      "surface": "#171e1b",
+      "border": "#28312b",
+      "text": "#f0f2eb",
+      "muted": "#8e9b92",
+      "accent": "#c4f58a",
+      "onAccent": "#15240b",
+      "accentHover": "#d3ffa3",
+      "glow": "#23332255"
     }
   },
   "links": [
