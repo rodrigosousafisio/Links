@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "rodrigo-andrade",
+  "site": {
+    "origin": "https://rodrigosousafisio.github.io",
+    "basePath": "/Links",
+    "language": "pt-BR",
+    "locale": "pt_BR"
+  },
+  "profile": {
+    "name": "Rodrigo Andrade",
+    "jobTitle": "Fisioterapeuta",
+    "handle": "@rrodrigoandradee_",
+    "bio": "Fisioterapia com foco na reabilitação de joelho, no movimento e na recuperação funcional.",
+    "phone": "+5598991853468",
+    "email": "rodrigo@gmail.com",
+    "address": {
+      "city": "São Luís",
+      "region": "MA",
+      "country": "BR"
+    },
+    "socialProfiles": [
+      "https://www.instagram.com/rrodrigoandradee_/",
+      "https://wa.me/5598991853468"
+    ],
+    "knowsAbout": [
+      "Reabilitação de Joelho",
+      "Recuperação Funcional",
+      "Movimento"
+    ]
+  },
+  "assets": {
+    "avatar": {
+      "src": "/brand/ra-symbol.svg",
+      "alt": "Monograma de Rodrigo Andrade com articulação do joelho",
+      "width": 120,
+      "height": 120
+    },
+    "logo": {
+      "src": "/brand/ra-logo-light.png",
+      "alt": "Rodrigo Andrade — Fisioterapeuta",
+      "width": 250,
+      "height": 250
+    },
+    "favicon": "/brand/ra-symbol.svg",
+    "socialImage": {
+      "src": "/brand/ra-social.png",
+      "alt": "Rodrigo Andrade — Fisioterapeuta em São Luís",
+      "width": 5000,
+      "height": 5000
+    }
+  },
+  "theme": {
+    "home": {
+      "background": "213 64% 14%",
+      "foreground": "38 33% 95%",
+      "card": "213 54% 18%",
+      "primary": "44 90% 58%",
+      "primaryForeground": "213 64% 14%",
+      "secondary": "213 46% 22%",
+      "secondaryForeground": "38 25% 88%",
+      "mutedForeground": "214 19% 73%",
+      "border": "213 35% 29%"
+    },
+    "timer": {
+      "background": "#0D223C",
+      "card": "#132D4B",
+      "surface": "#1A3655",
+      "border": "#2E4968",
+      "text": "#F7F4EF",
+      "muted": "#ADBBCC",
+      "accent": "#E2B531",
+      "onAccent": "#0D223C",
+      "accentHover": "#F1C855",
+      "glow": "#D4A10B1A"
+    }
+  },
+  "links": [
+    {
+      "id": "whatsapp",
+      "icon": "whatsapp",
+      "href": "https://wa.me/5598991853468",
+      "label": "WhatsApp",
+      "description": "Agende seu atendimento",
+      "showInFooter": true
+    },
+    {
+      "id": "instagram",
+      "icon": "instagram",
+      "href": "https://www.instagram.com/rrodrigoandradee_/",
+      "label": "Instagram",
+      "description": "@rrodrigoandradee_",
+      "showInFooter": true
+    },
+    {
+      "id": "email",
+      "icon": "email",
+      "href": "mailto:rodrigo@gmail.com",
+      "label": "E-mail",
+      "description": "rodrigo@gmail.com",
+      "showInFooter": true
+    },
+    {
+      "id": "tabata",
+      "icon": "timer",
+      "href": "/timer/",
+      "label": "Tabata Timer",
+      "description": "Seu tempo, seu ritmo. Monte seu treino.",
+      "feature": "tabata"
+    }
+  ],
+  "features": {
+    "tabata": true
+  },
+  "seo": {
+    "title": "Rodrigo Andrade — Fisioterapia e reabilitação de joelho em São Luís",
+    "description": "Fisioterapeuta Rodrigo Andrade em São Luís, MA. Foco na reabilitação de joelho, no movimento e na recuperação funcional. Agende seu atendimento pelo WhatsApp.",
+    "socialDescription": "Fisioterapia com foco em joelho e recuperação funcional em São Luís, MA. Conheça Rodrigo Andrade e agende seu atendimento.",
+    "personDescription": "Fisioterapeuta em São Luís do Maranhão, com foco na reabilitação de joelho e na recuperação funcional.",
+    "business": {
+      "name": "Rodrigo Andrade — Fisioterapeuta",
+      "description": "Fisioterapia com foco na reabilitação de joelho em São Luís do Maranhão.",
+      "specialties": [
+        "Reabilitação de Joelho"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/rrodrigoandradee_/"
+      ],
+      "areaServed": [
+        {
+          "type": "City",
+          "name": "São Luís"
+        },
+        {
+          "type": "State",
+          "name": "Maranhão"
+        }
+      ],
+      "services": [
+        {
+          "name": "Reabilitação de Joelho",
+          "description": "Atendimento de fisioterapia com foco na recuperação funcional do joelho."
+        }
+      ]
+    }
+  },
+  "timer": {
+    "name": "Tabata Timer · Rodrigo Andrade",
+    "shortName": "Tabata · RA",
+    "description": "Seu tempo, seu ritmo. Monte treinos intervalados, acompanhe cada fase e salve suas rotinas neste navegador. Timer com voz, séries e uso offline.",
+    "installDescription": "Timer de treino intervalado de Rodrigo Andrade.",
+    "socialDescription": "Um intervalo de cada vez. Seu timer de treino, com a sua rotina.",
+    "icons": {
+      "svg": "/brand/ra-symbol.svg",
+      "small": "/brand/icon-192.png",
+      "large": "/brand/icon-512.png",
+      "maskable": "/brand/icon-maskable.png"
+    }
+  }
+}

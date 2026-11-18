@@ -1,0 +1,23 @@
+name: Deploy approved site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  site:
+    uses: WiltonV/central-links/.github/workflows/site.yml@v1
+    with:
+      publish: ${{ github.event_name != 'pull_request' }}
