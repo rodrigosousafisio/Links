@@ -6,7 +6,7 @@ Site de Rodrigo Andrade, fisioterapeuta em São Luís, MA, com foco em reabilita
 - `public/`: foto, logos e demais arquivos exclusivos deste profissional.
 - `central.config.json`: SHA completo da versão aprovada da central.
 
-GitHub Pages: `https://rodrigosousafisio.github.io/Links/`. O caminho `/Links` diferencia maiúsculas de minúsculas.
+GitHub Pages: `https://rodrigosousafisio.github.io/links/`. O repositório deve se chamar `links` e o `site.basePath` deve ser `/links`, ambos em minúsculas.
 
 ## Desenvolvimento
 
