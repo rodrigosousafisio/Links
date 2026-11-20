@@ -41,7 +41,7 @@ npm start
 
 ## Aprovar atualizações
 
-A central consulta a versão estável e as configurações dos profissionais em um agendamento de 15 minutos, sujeito a atrasos do GitHub. Havendo uma versão nova, testa a candidata em ambiente privado antes de abrir o PR neste repositório.
+A central consulta a versão estável e as configurações dos profissionais em um agendamento de hora em hora, sujeito a atrasos do GitHub. Havendo uma versão nova, testa a candidata em ambiente privado antes de abrir o PR neste repositório.
 
 **A troca da versão da central só acontece quando você aceita e faz o merge do PR na `main`.** A rotina nunca aprova ou faz merge por conta própria. Fechar um PR sem merge recusa aquela candidata; ela não será proposta novamente. Alterações de perfil, links ou imagens na `main` usam a revisão já aprovada da central.
 
