@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://rodrigosousafisio.github.io/links/sitemap.xml

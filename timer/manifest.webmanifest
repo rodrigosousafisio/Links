@@ -1,0 +1,38 @@
+{
+  "id": "/links/timer/",
+  "name": "Tabata Timer · Rodrigo Andrade",
+  "short_name": "Tabata · RA",
+  "description": "Timer de treino intervalado de Rodrigo Andrade.",
+  "lang": "pt-BR",
+  "start_url": "/links/timer/",
+  "scope": "/links/timer/",
+  "display": "standalone",
+  "background_color": "#090e0d",
+  "theme_color": "#090e0d",
+  "icons": [
+    {
+      "src": "/links/brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/links/brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/links/brand/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/links/brand/ra-symbol.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
