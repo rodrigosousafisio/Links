@@ -1,6 +1,6 @@
 # Rodrigo Andrade — Links
 
-Site de Rodrigo Andrade, fisioterapeuta em São Luís, MA, com foco em reabilitação de joelho. Este repositório guarda a configuração e os arquivos da marca. O aplicativo e seus testes ficam em [WiltonV/central-links](https://github.com/WiltonV/central-links).
+Site de Rodrigo Andrade, fisioterapeuta em São Luís, MA, com foco em reabilitação de joelho. Este repositório guarda a configuração e os arquivos da marca. O aplicativo, seus testes e o build ficam na central privada [WiltonV/central-links](https://github.com/WiltonV/central-links).
 
 - `site.config.json`: perfil, links, cores, SEO, endereço e recursos.
 - `public/`: foto, logos e demais arquivos exclusivos deste profissional.
@@ -8,9 +8,11 @@ Site de Rodrigo Andrade, fisioterapeuta em São Luís, MA, com foco em reabilita
 
 GitHub Pages: `https://rodrigosousafisio.github.io/links/`. O repositório deve se chamar `links` e o `site.basePath` deve ser `/links`, ambos em minúsculas.
 
+A branch `site` contém somente os arquivos gerados para publicação. A central é acessível aos mantenedores autorizados.
+
 ## Desenvolvimento
 
-Requer Node.js 20.19 ou superior, Git e Corepack/Yarn disponíveis (`corepack enable`). Não é necessário instalar dependências na raiz deste repositório.
+Requer acesso autorizado à central privada, Node.js 20.19 ou superior, Git e Corepack/Yarn disponíveis (`corepack enable`). Não é necessário instalar dependências na raiz deste repositório. A autenticação HTTPS do Git deve permitir ler a central; também é possível usar um checkout local com `--source`.
 
 ```sh
 npm run dev
@@ -39,17 +41,17 @@ npm start
 
 ## Aprovar atualizações
 
-A rotina `Check central updates` consulta a versão estável diariamente e também pode ser iniciada por `Run workflow`. Havendo uma versão nova, ela testa a candidata com os dados deste profissional antes de propor a atualização.
+A central consulta a versão estável e as configurações dos profissionais em um agendamento de 15 minutos, sujeito a atrasos do GitHub. Havendo uma versão nova, testa a candidata em ambiente privado antes de abrir o PR neste repositório.
 
-**A publicação só acontece quando você aceita e faz o merge do PR na `main`.** A rotina nunca aprova ou faz merge por conta própria. Fechar um PR sem merge recusa aquela candidata; ela não será proposta novamente.
+**A troca da versão da central só acontece quando você aceita e faz o merge do PR na `main`.** A rotina nunca aprova ou faz merge por conta própria. Fechar um PR sem merge recusa aquela candidata; ela não será proposta novamente. Alterações de perfil, links ou imagens na `main` usam a revisão já aprovada da central.
 
-Se a política do repositório bloquear PRs criados pelo GitHub Actions, a rotina abre uma solicitação em Issues com a branch pronta e o link para criar o PR manualmente. Depois de aceitar ou recusar, feche a solicitação. Não é necessário conceder novas credenciais para esse fluxo.
+Se o GitHub bloquear a abertura automática do PR, a central pode criar uma solicitação em Issues com a branch pronta e o link para criar o PR manualmente. Depois de aceitar ou recusar, feche a solicitação.
 
-O GitHub pode atrasar agendamentos e desativá-los em repositórios públicos sem atividade por 60 dias. Nesse caso, reative `Check central updates` em Actions; a execução manual também fica disponível.
+Para antecipar uma publicação, um mantenedor executa Actions → Distribute private central → Run workflow na central, selecionando este profissional e `sync`. O workflow público `Deploy generated site` recebe a notificação e publica os arquivos da branch `site`, sem acessar o código privado. Sua execução manual republica a última exportação disponível; ela não monta uma configuração recém-alterada.
 
-Para voltar a uma versão anterior, altere `central.config.json.revision` para o SHA completo que deseja e publique essa alteração pela `main`. O workflow valida a versão antes do deploy. Não altere o `id` do profissional para manter seus treinos salvos.
+Para voltar a uma versão anterior, altere `central.config.json.revision` para o SHA completo desejado e faça merge dessa alteração na `main`. A central valida essa revisão antes de distribuir os arquivos. Não altere o `id`, a origem ou o caminho do site para preservar os treinos locais e os endereços existentes.
 
-Os workflows usam o controlador versionado `@v1` da central. Uma mudança futura no contrato desses workflows poderá exigir atualizar essa referência; atualizações normais do aplicativo são propostas pelo campo `revision`.
+Não faça alterações manuais na branch `site`: ela é gerada pela central. Os HTMLs, CSS, JavaScript compilado e assets são públicos; fontes originais, testes, ferramentas e credenciais de distribuição ficam na central privada.
 
 ## Identidade visual
 
